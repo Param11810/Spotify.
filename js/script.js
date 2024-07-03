@@ -25,7 +25,7 @@ async function getSongs(folder) {
     currFolder=folder;
     // let currentSong=new Audio();
 
-    let a = await fetch(`http://127.0.0.1:5500/${folder}/`)
+    let a = await fetch(`https://param11810.github.io/Spotify.//`)
     let response = await a.text();
     // console.log(response)
     let div = document.createElement("div")
